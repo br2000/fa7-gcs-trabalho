@@ -119,6 +119,4 @@ _[Descreva as ferramentas de software, o pessoal e o treinamento necessários pa
 
 6. Auditorias de Configuração
 =============================
-_A auditoria da configuração deve ser conduzida para verificar se um item de configuração está em conformidade com um padrão ou requisito especificado. 
-A auditoria de configuração deve ser executada antes que uma baseline seja definida, para certificar que o produto está de acordo com os requisitos (de especificação e contratuais) e também para garantir que está precisamente descrito em seus documentos técnicos.
-Toda alteração também precisa ser auditada para garantir a integridade do produto que está sendo produzido. _
+_[Descreva o cronograma das auditorias de configuração e o que será verificado. Informe também como serão reportados os problemas encontrados e onde sera feito o acompanhamento dos itens corretivos.]_
