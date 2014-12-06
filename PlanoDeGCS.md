@@ -101,7 +101,23 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 _[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
-_[Descreva a participação e os procedimentos para processar solicitações e aprovações de mudança a serem seguidos pelo CCB. Informe quem são os membros do CCB e suas responsabilidades.]_
+
+O comitê de Controle de Mudanças (CCM) será formado por Analista de Sistemas e Gerente de Projetos.
+
+As requisições de mudança devem ocorrer da seguinte forma:
+
+1. Pedido Formal de Mudança: O solicitante preenche o Pedido Formal de Mudança, e envia para a Comissão de Controle de Mudança.
+
+2. A CCM com apoio da Equipe Técnica realiza a triagem definindo a relevância e possível impacto da mudança: Com Impacto Significativo, Sem Impacto Significativo e Mudança Irrelevante - Rejeitada.
+
+3. As mudanças que foram classificadas como Relevante deve gerar a Solicitação de Análise Detalhada de Impacto.
+
+4. Realizar Análise de Impacto: Estudo e análise de quais itens de configuração a mudança impactará. Relatório contendo a lista de itens de configuração e o qual impacto sofrido pelo mesmo.
+
+5. O CCM juntamente com o cliente negocia e aprova se a mudança pode ser implementada. O resultado deste processo pode gerar as seguintes decisões: Mudança Aprovada ou Mudança Reprovada.
+
+6. Se a mudança for Aprovada, então é gerado um relatório contendo a lista das alterações que serão implementadas. Se não for aprovada, a CCM envia ao solicitante o resultado “reprovada” ou considerada irrelevante.
+
 
 
 
@@ -115,9 +131,9 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 =========================
 Descrição dos treinamentos efetuados para os integrantes do Grupo.
 
-| Treinamento     | Objetivo                                                                                                                                                                                                      | Público Alvo  |
-| --------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :-------------|
-| Repositório     | Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo. | Toda a equipe |
+| Treinamento     | Objetivo                                                                                                                                                                                                      | Público Alvo      |
+| --------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :-----------------|
+| Repositório     | Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo. | Toda a equipe     |
 
 
 
