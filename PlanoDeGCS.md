@@ -98,7 +98,23 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 --------------------------------------
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
-_[Descreva o processo pelo qual os problemas e as mudanças são submetidos, revisados e dispostos. Inclua como funciona a transição de estados de uma solicitação de mudança]_
+
+As solicitações de mudanças das Baselines serão realizadas através da ferramenta Jira  Issues 
+
+**Status do Issues**
+
+| Atividade                        			 | Descrição	     											   				| Responsabilidade      |
+|----------------------------------------|------------------------------------------------|-----------------------|
+|Aberto																	 | Criação da solicitação.												| Todos									|
+|Em Analise															 | Análise da solicitação													| Analista de sistemas	|
+|Analisado															 | Aguardando desenvolvimento											| Analista de sistemas	|
+|Em desenvolvimento											 | Solicitação sendo desenvolvida									| Desenvolvedor					|
+|Desenvolvido														 | Aguardando teste																| Desenvolvedor					|
+|Em testes															 | Solicitação em teste														| Testador							|
+|Testado com erro												 | Aguardando desenvolvimento											| Testador							|
+|Testado sem erro												 | Solicitação esperando finalização pelo analista|	Testador							|
+|Finalizado															 | Solicitação finalizada													| Analista							|
+
 
 ### 3.2.2 Comitê de Controle de Mudança (CCB)
 
