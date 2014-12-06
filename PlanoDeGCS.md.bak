@@ -119,6 +119,18 @@ _[Descreva as ferramentas de software, o pessoal e o treinamento necessários pa
 
 6. Auditorias de Configuração
 =============================
-_A auditoria da configuração deve ser conduzida para verificar se um item de configuração está em conformidade com um padrão ou requisito especificado. 
+A auditoria da configuração deve ser conduzida para verificar se um item de configuração está em conformidade com um padrão ou requisito especificado. 
+
 A auditoria de configuração deve ser executada antes que uma baseline seja definida, para certificar que o produto está de acordo com os requisitos (de especificação e contratuais) e também para garantir que está precisamente descrito em seus documentos técnicos.
-Toda alteração também precisa ser auditada para garantir a integridade do produto que está sendo produzido. _
+
+Toda alteração também precisa ser auditada para garantir a integridade do produto que está sendo produzido.
+
+São exemplos de itens de configuração sob gerência de configuração que o sistema deve incluir:
+
+# Documentos gerenciais; 
+# Requisitos, especificações;
+# Códigos fonte;
+# Arquivos de configuração;
+# Executáveis;
+
+Havendo necessidade de gerência de outros itens não listados acima, os itens faltantes devem ser definidos pelo Gerente de Configuração e inseridos no repositório do sistema.

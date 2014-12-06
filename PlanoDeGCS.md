@@ -127,10 +127,10 @@ Toda alteração também precisa ser auditada para garantir a integridade do pro
 
 São exemplos de itens de configuração sob gerência de configuração que o sistema deve incluir:
 
-# Documentos gerenciais; 
-# Requisitos, especificações;
-# Códigos fonte;
-# Arquivos de configuração;
-# Executáveis;
+* Documentos gerenciais; 
+* Requisitos, especificações;
+* Códigos fonte;
+* Arquivos de configuração;
+* Executáveis;
 
 Havendo necessidade de gerência de outros itens não listados acima, os itens faltantes devem ser definidos pelo Gerente de Configuração e inseridos no repositório do sistema.
