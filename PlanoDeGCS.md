@@ -115,9 +115,9 @@ _[Descreva os padrões e procedimentos que devem ser seguidos no projeto. Crie s
 =========================
 Descrição dos treinamentos efetuados para os integrantes do Grupo.
 
-| Treinamento     | Objetivo                                                                                                                                                                                                     |Público Alvo   |
-| --------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:| -------------:|
-| Repositório     | Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo.| Toda a equipe |
+| Treinamento     | Objetivo                                                                                                                                                                                                      | Público Alvo  |
+| --------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :-------------|
+| Repositório     | Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo. | Toda a equipe |
 
 
 
