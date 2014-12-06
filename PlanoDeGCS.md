@@ -99,9 +99,9 @@ _[Descreva a organização de diretórios do seu repositório e que itens/arquiv
 
 ### 3.2.1 Processamento e Aprovação de Solicitações de Mudança
 
-As solicitações de mudanças das Baselines serão realizadas através da ferramenta Jira  Issues 
+As solicitações de mudanças das Baselines serão realizadas através da ferramenta Jira.
 
-**Status do Issues**
+**Status das Issues**
 
 | Atividade                        			 | Descrição	     											   				| Responsabilidade      |
 |----------------------------------------|------------------------------------------------|-----------------------|
@@ -150,7 +150,7 @@ Descrição dos treinamentos efetuados para os integrantes do Grupo.
 | Treinamento     | Objetivo                                                                                                                                                                                                      | Público Alvo      |
 | --------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :-----------------|
 | Repositório     | Treinamento ensina como acessar o repositório através de uma máquina cliente, como dar os comandos principais do repositório,  como incluir novos itens dentro do repositório e também como remover do mesmo. | Toda a equipe     |
-
+| Ferramenta JIRA | Capacitar a equipe no tratamento das issues (tasks, bug, improvment entre outrso e divulgar o workflow que será utilizado no projeto.																																					| Toda a equipe     |
 
 
 6. Auditorias de Configuração
