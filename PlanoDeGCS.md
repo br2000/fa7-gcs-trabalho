@@ -14,8 +14,8 @@ Histórico de Versões
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;autor&gt;_|
-|_&lt;dd/mm/aaaa&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;autor&gt;_|
+|_&lt;05/12/2104&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;Bruno Camargo&gt;_|
+|_&lt;07/12/2014&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;Felipe Andrade&gt;_|
 
 
 
