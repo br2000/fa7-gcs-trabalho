@@ -27,17 +27,37 @@ _[A introdução do Plano de Gerenciamento de Configuração  oferece uma visão
 Ela inclui a finalidade, o escopo, as definições, os acrônimos, as abreviações, as referências e uma visão geral deste
 Plano de Gerenciamento de Configuração.]_
 
+O Plano de Gerenciamento de Configuração tem como objetivo principal documentar o sistema de gestão de configuração definido para o Projeto XYZ, apresentando todas as tarefas, os seu padrões, procedimentos, atividades e responsáveis. Portanto, podemos afirmar que a aplicação deste plano visa garantir a integridade de códigos-fonte e demais produtos do sistema XYZ, permitindo acompanhamento destes itens durante todo o ciclo de vida do projeto, preservando o histórico de evolução dos sistemas da instituição.
+
 1.1 Finalidade
 ---------------
 _[Especifique a finalidade deste Plano de Gerenciamento de Configuração.]_
+
+Este Plano de Gerenciamento de Configuração destina-se a todos os projetos iniciados no ambiente de desenvolvimento da empresa XYZ e tem como obejtivo principal descrever a organização, nomeclatura e regras para versionamento do projeto XYZ. Portanto, o plano auxiliará os profissionais de desenvolvimento e produção a gerenciar o estado dos itens de configuração, controlar  as mudanças em itens de configuração e principalmente rastrear tais modificações ao longo do ciclo de vida do projeto.
 
 1.2 Escopo
 ----------
 _[Uma breve descrição do escopo deste Plano de Gerenciamento de Configuração; o modelo ao qual ele está associado e tudo o que é afetado ou influenciado por este documento.]_
 
+Este plano é destinado a todos os profissionais responsáveis pelo desenvolvimento do sistema XYZ, e deverá ser seguido durante todo o ciclo de vida do produto. O referido plano abrangerá todos os dados relevantes definidos nos projetos relacionados ao sistema XYZ, incluindo ferramentes, hardware, responsabilidades, cronogramas, e dará subsídios a equipe para controlar as etapas de desenvolvimento do software XYZ.
+
 1.3 Definições, Acrônimos e Abreviações
 ---------------------------------------
 _[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
+
+|Sigla	 |Descrição                                                                             |
+|--------|----------------------------------------------------------------------------------------|                                                                                                                            
+|BASELINE|Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade. |
+|CCM	 |Comitê para o Controle de Mudanças.  |
+|CM | Controle de Mudanças |
+|GC	 |Gerência de Configuração |
+|PGC | Plano de Gerenciamento de Configuração | 
+|RUP	 |Rational Unified Process |   
+|SM	 |Solicitação de mudança                                                                 
+|XYZ    |Sistema... |
+
+
+
 
 1.4 Referências
 ---------------
@@ -56,6 +76,13 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 ------------------------------------------------
 _[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
 
+|Papéis | Equipe | Responsabilidade |                                                             
+|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|Gerente de Configuração |Carlos Bezerra |Estabelecer Políticas de GC, Escrever Plano de GC, Configurar Ambiente de GC, Criar Espaços de Trabalho de Integração, Criar Baselines e Promover Baselines|
+|CCM | Bruno Camargo e Carlos Bezerra | Estabelecer Processo de Controle de Mudanças e Revisar Solicitação de Mudança |
+|Desenvolvedor | Carlos Bezerra e Felipe Andrade | Seguir os padrões e procedimentos definidos no Plano de Gerência e Configuração |
+|Todos os Papéis | Bruno Camargo, Carlos Bezerra e Felipe Andrade | Enviar Solicitação de Mudança e Atualizar Solicitação de Mudança |
+
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
 _[Descreva o ambiente de computação e as ferramentas de software a serem utilizadas para desempenhar as funções de CM em todo o ciclo de vida do projeto ou produto._
@@ -65,7 +92,48 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 * _distribuição da equipe do produto_
 * _localização física dos servidores e clientes]_
  
+### 2.2.1 Ferramentas a serem utilizadas para a Gerência de Configuração
+----------------------------------
 
+|Ferramenta | Tipo | Descrição | Versão |                                                            
+|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|IDE Eclipse | Plataforma de Desenvolvimento | É uma IDE para desenvolvimento Java, com suporte a diversas linguagens e plugins. | Eclipse Luna 4.4.1 |
+|Git | Controle de Versão |Sistems para Controle de Verão |1.9.4 |
+|Egit Plugin | Acesso ao Repositório | Cliente para o Git Integrado ao Windows | 1.4.8.121 |
+
+### 2.2.2 Ferramentas do ambiente de desenvolvimento
+----------------------------------
+
+|Tipo | Ferramenta | Versão |                                                            
+|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|Sistema Operacional | Windows 7 Professional | SP1 |
+|Cronograma | Microsoft Office Project | 2013 |
+|Planilha | Microsoft Office Excel | 2010 |
+|Editor de Texto | Microsoft Office Word | 2010 |
+|Controle de Versão | Git | 1.9.4 |
+|Plataforma de Desenvolvimento | Eclipse Luna | 4.4.1 |
+|Planilha | Microsoft Office Excel | 2010 |
+|Banco de Dados | MySQL | 5.0 |
+|Comunicação | E-mail / Skype / Whatsapp |  |
+
+
+### 2.2.3 Estrutura do Ambiente
+----------------------------------
+
+|Ambiente | Descrição | Transição |                                                            
+|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|Desenvolvimento | É o ambiente que será utilizado para a codificação do sistema. | O componente atingirá a maturidade quando os requisitos forem supridos e testados pelos desenvolvedores através dos testes unitários. |
+|Integração | É o ambiente que servirá para os testes de integração | Quando a comunicação entre os módulos atinge um estágio aceitável de funcionamento. |
+|Banco de Dados | É o ambiente onde os dados serão armazenados | Ambiente que conterá o banco de dados do sistema. |
+
+### 2.2.4 Estrutura dos Equipamentos
+----------------------------------
+
+|QTD | Ambientes | Configuração de Hardware |  Configuração do Software                                                          
+|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|3 | Desenvolvedor | Processador 2.3GHz, Memória de 4GB ou Superior, Disco Rígido de 500GB ou Superior e IP 192.168.0.50 ~ 52| Windows 7 Professional SP1, Eclipse Luna 4.4.1, Git 1.9.4, Egit 1.4.8.121, Office 2010, Mysql 5.0 e Skype |
+|1 | Integração | Processador 3.0GHz, Memória de 16GB ou Superior, Disco Rígido de 2TB ou Superior e IP 192.168.0.10 | Centos 6.5 64 bits, Java 1.8 SDK, Git 1.9.4, Maven Plugin 2.8, MySQL Database Plugin 1.0 e Jenkins 1.588 |
+|1 | Banco de Dados | Processador 2.3 GHz ou Superior, Memória de 8GB ou Superior, Disco Rígido de 1TB ou Superior e IP 192.168.0.20 | Centos 6.5 64 bits e MySQL 5.0 |
 
 3. O Programa de Gerenciamento de Configuração
 ==============================================
