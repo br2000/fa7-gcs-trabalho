@@ -45,8 +45,8 @@ Este plano é destinado a todos os profissionais responsáveis pelo desenvolvime
 ---------------------------------------
 _[Esta subseção apresenta as definições de todos os termos, acrônimos e abreviações necessários para a correta interpretação do Plano de Gerenciamento de Configuração.  Essas informações podem ser fornecidas mediante referência ao Glossário do projeto.]_
 
-|Sigla	 |Descrição                                                                             |
-|--------|----------------------------------------------------------------------------------------|                                                                                                                            
+|Sigla	  |Descrição    |                                                           
+|---------|-------------|                                                                                                                            
 |BASELINE|Conjunto de itens de configuração que conseguiram um estado comprovado de estabilidade. |
 |CCM	 |Comitê para o Controle de Mudanças.  |
 |CM | Controle de Mudanças |
@@ -77,7 +77,7 @@ _[Esta subseção descreve o conteúdo restante do Plano de Gerenciamento de Con
 _[Descreva quem será o responsável pela execução das diversas atividades de Gerenciamento de Configuração (CM) descritas no Processo de CM.]_
 
 |Papéis | Equipe | Responsabilidade |                                                             
-|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|-------|---------|-----------------|                                                                                                                            
 |Gerente de Configuração |Carlos Bezerra |Estabelecer Políticas de GC, Escrever Plano de GC, Configurar Ambiente de GC, Criar Espaços de Trabalho de Integração, Criar Baselines e Promover Baselines|
 |CCM | Bruno Camargo e Carlos Bezerra | Estabelecer Processo de Controle de Mudanças e Revisar Solicitação de Mudança |
 |Desenvolvedor | Carlos Bezerra e Felipe Andrade | Seguir os padrões e procedimentos definidos no Plano de Gerência e Configuração |
@@ -96,7 +96,7 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ----------------------------------
 
 |Ferramenta | Tipo | Descrição | Versão |                                                            
-|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|-----------|------|-----------|---------|                                                                                                                            
 |IDE Eclipse | Plataforma de Desenvolvimento | É uma IDE para desenvolvimento Java, com suporte a diversas linguagens e plugins. | Eclipse Luna 4.4.1 |
 |Git | Controle de Versão |Sistems para Controle de Verão |1.9.4 |
 |Egit Plugin | Acesso ao Repositório | Cliente para o Git Integrado ao Windows | 1.4.8.121 |
@@ -105,7 +105,7 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ----------------------------------
 
 |Tipo | Ferramenta | Versão |                                                            
-|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|-----|------------|--------|                                                                                                                            
 |Sistema Operacional | Windows 7 Professional | SP1 |
 |Cronograma | Microsoft Office Project | 2013 |
 |Planilha | Microsoft Office Excel | 2010 |
@@ -121,7 +121,7 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ----------------------------------
 
 |Ambiente | Descrição | Transição |                                                            
-|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|---------|-----------|-----------|                                                                                                                            
 |Desenvolvimento | É o ambiente que será utilizado para a codificação do sistema. | O componente atingirá a maturidade quando os requisitos forem supridos e testados pelos desenvolvedores através dos testes unitários. |
 |Integração | É o ambiente que servirá para os testes de integração | Quando a comunicação entre os módulos atinge um estágio aceitável de funcionamento. |
 |Banco de Dados | É o ambiente onde os dados serão armazenados | Ambiente que conterá o banco de dados do sistema. |
@@ -129,8 +129,8 @@ _As questões envolvidas na configuração do ambiente de CM incluem:_
 ### 2.2.4 Estrutura dos Equipamentos
 ----------------------------------
 
-|QTD | Ambientes | Configuração de Hardware |  Configuração do Software                                                          
-|-----------------------------------|----------------------------------------------------------------------------------------|                                                                                                                            
+|QTD | Ambientes | Configuração de Hardware |  Configuração do Software |                                                         
+|----|-----------|--------------------------|--------------------------|                                                                                                                           
 |3 | Desenvolvedor | Processador 2.3GHz, Memória de 4GB ou Superior, Disco Rígido de 500GB ou Superior e IP 192.168.0.50 ~ 52| Windows 7 Professional SP1, Eclipse Luna 4.4.1, Git 1.9.4, Egit 1.4.8.121, Office 2010, Mysql 5.0 e Skype |
 |1 | Integração | Processador 3.0GHz, Memória de 16GB ou Superior, Disco Rígido de 2TB ou Superior e IP 192.168.0.10 | Centos 6.5 64 bits, Java 1.8 SDK, Git 1.9.4, Maven Plugin 2.8, MySQL Database Plugin 1.0 e Jenkins 1.588 |
 |1 | Banco de Dados | Processador 2.3 GHz ou Superior, Memória de 8GB ou Superior, Disco Rígido de 1TB ou Superior e IP 192.168.0.20 | Centos 6.5 64 bits e MySQL 5.0 |
