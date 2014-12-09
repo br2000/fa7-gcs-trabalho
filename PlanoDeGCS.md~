@@ -140,10 +140,12 @@ As baselines são gerada assim que uma vesão de homologação do sistema SPT-SI
 
 ### 3.1.4 Estrutura do Repositório de Versões
 
-SPT-SIS/dev-cadastro-1.0
-SPT-SIS/dev-selecao-1.0
-SPT-SIS/dev-contabilidade-1.0
-SPT-SIS/dev-financeiro-1.0
+| Módulo                | Estrutura     | 
+|----------------------------------------|-----------------------------|----------------------|
+| Cadastro | SPT-SIS/dev-cadastro-1.0 |
+| Selecao | SPT-SIS/dev-selecao-1.0 |
+| Contabilidade | SPT-SIS/dev-contabilidade-1.0 |
+| Financeiro | SPT-SIS/dev-financeiro-1.0 |
 
 
 
