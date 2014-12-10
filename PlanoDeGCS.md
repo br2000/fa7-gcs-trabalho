@@ -168,6 +168,7 @@ Tabela 08 - id e itens de configuração.
 |Modificações Importantes |X          |
 |Correções Planejadas     |Y          |
 |Coreções de Bugs         |Z          |
+|Exemplo                  |X.Y.Z      |
 
 Tabela 09 - padrão de versionamento.
 
