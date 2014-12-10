@@ -2,28 +2,26 @@
 =================
 Plano de Gerenciamento de Configuração
 ======================================
-Versão &lt;1.0&gt;
+Versão &lt;4.00&gt;
 ------------------
 
-_[Observação: O template a seguir é fornecido para uso com o Rational Unified Process (RUP).  O texto exibido entre colchetes e em itálico foi incluído para orientar o autor e deve ser excluído antes da publicação do documento._
-
-_Este documento utiliza a formatação da linguagem [Markdown] (http://daringfireball.net/projects/markdown/). Você pode encontrar um guia de referência rápido [aqui] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).]_
 
 Histórico de Versões
 --------------------
 
 |Data                |Versão       |Descrição               |Autor          |
 |--------------------|-------------|------------------------|---------------|
-|_&lt;05/12/2104&gt;_|_&lt;1.0&gt;_|_&lt;Versão inicial&gt;_|_&lt;Bruno Camargo&gt;_|
-|_&lt;07/12/2014&gt;_|_&lt;1.1&gt;_|_&lt;Outra versão&gt;_  |_&lt;Felipe Andrade&gt;_|
-|_&lt;07/12/2014&gt;_|_&lt;1.2&gt;_|_&lt;Outra versão&gt;_  |_&lt;Carlos Bezerra&gt;_|
+|_&lt;05/12/2104&gt;_|_&lt;1.00&gt;_|_&lt;Versão inicial&gt;_|_&lt;Bruno Camargo&gt;_|
+|_&lt;07/12/2014&gt;_|_&lt;2.00&gt;_|_&lt;Nova Versão&gt;_  |_&lt;Felipe Andrade&gt;_|
+|_&lt;09/12/2014&gt;_|_&lt;3.00&gt;_|_&lt;Nova Versão&gt;_  |_&lt;Carlos Bezerra&gt;_|
+|_&lt;10/12/2014&gt;_|_&lt;4.00&gt;_|_&lt;Nova Versão&gt;_  |_&lt;Felipe Andrade&gt;_|
 
 
 
 1. Introdução
 ==============
 
-O Plano de Gerenciamento de Configuração tem como objetivo principal documentar o sistema de gestão de configuração definido para o Projeto SPT-SIS, apresentando todas as tarefas, os seu padrões, procedimentos, atividades e responsáveis. Portanto, podemos afirmar que a aplicação deste plano visa garantir a integridade de códigos-fonte e demais produtos do sistema SPT-SIS, permitindo acompanhamento destes itens durante todo o ciclo de vida do projeto, preservando o histórico de evolução dos sistemas da instituição.
+O Plano de Gerenciamento de Configuração tem como objetivo principal documentar o sistema de gestão de configuração definido para o Projeto SPT-SIS, apresentando todas as tarefas, os seu padrões, procedimentos, atividades e responsáveis. Portanto, podemos afirmar que a aplicação deste plano visa garantir a integridade de códigos fonte e demais produtos do sistema SPT-SIS, permitindo acompanhamento destes itens durante todo o ciclo de vida do projeto, preservando o histórico de evolução dos sistemas da instituição.
 
 1.1 Finalidade
 ---------------
@@ -47,16 +45,25 @@ Este plano é destinado a todos os profissionais responsáveis pelo desenvolvime
 |SM	 |Solicitação de mudança                                                                 
 |SPT-SIS    |Sistema de Proteção de Trânsito |
 
-
-
+Tabela 01 - definições, acrônimos e abreviações.
 
 1.4 Referências
 ---------------
-
+Não se aplica.
 
 1.5 Visão Geral
 ---------------
-O documento do plano de configuração esta organizado em seções e sub-seções, citando os itens de configuração, a organização da estrutura dos diretórios e a organização dos papéis e responsabilidades.
+O documento referente ao plano de configuração esta organizado em seções e sub-seções, citando os itens de configuração, a organização da estrutura dos diretórios e a organização dos papéis e responsabilidades.
+
+Seção 2 - nesta seção são definidos os papéis, equipes, responsabilidades,ferramentas, ambiente e infra-estrutura necessários ao pleno gerenciamento de configuração de software.
+
+Seção 3 - nesta seção são definidos os métodos de identificação dos documentos, artefatos e itens de configuração, as baselines, a estrutura de diretórios do repositório onde os itens serão armazenados e o padrão para criação de tags.
+
+Seção 4 - nesta seção são definidos os padrões e procedimentos que deverão ser seguidos para aprovação e liberação de uma versão dos itens de configuração.
+
+Seção 5 - nesta seção são definidos as ferramentas, recusros e treinamentos necessários para que a equipe possa implementar as atividades definidas no PGS.
+
+Seção 6 - nesta seção são definidos em que momento as auditorias serão realizadas, o que será verificado e como os problemas serão reportados.
 
 
 2. Gerenciamento de Configuração de Software
@@ -71,9 +78,10 @@ O documento do plano de configuração esta organizado em seções e sub-seçõe
 |Desenvolvedor | Carlos Bezerra e Felipe Andrade | Seguir os padrões e procedimentos definidos no Plano de Gerência e Configuração |
 |Todos os Papéis | Bruno Camargo, Carlos Bezerra e Felipe Andrade | Enviar Solicitação de Mudança e Atualizar Solicitação de Mudança |
 
+Tabela 02 - organização, responsabilidades e interfaces.
+
 2.2 Ferramentas, Ambiente e Infra-estrutura
 -------------------------------------------
-As ferramentas tem como principio software livre, o ambiente e linux e a infra-estrutura consta com  um servidor centralizado tando para o controle de versão como para as demais necessidades.
  
 ### 2.2.1 Ferramentas a serem utilizadas para a Gerência de Configuração
 ----------------------------------
@@ -81,8 +89,10 @@ As ferramentas tem como principio software livre, o ambiente e linux e a infra-e
 |Ferramenta | Tipo | Descrição | Versão |                                                            
 |-----------|------|-----------|---------|                                                                                                                            
 |IDE Eclipse | Plataforma de Desenvolvimento | É uma IDE para desenvolvimento Java, com suporte a diversas linguagens e plugins. | Eclipse Luna 4.4.1 |
-|Git | Controle de Versão |Sistems para Controle de Verão |1.9.4 |
+|Git | Controle de Versão |Sistema para Controle de Verão |1.9.4 |
 |Egit Plugin | Acesso ao Repositório | Cliente para o Git Integrado ao Windows | 1.4.8.121 |
+
+Tabela 03 - ferramentas para a gerência de configuração.
 
 ### 2.2.2 Ferramentas do ambiente de desenvolvimento
 ----------------------------------
@@ -99,6 +109,8 @@ As ferramentas tem como principio software livre, o ambiente e linux e a infra-e
 |Banco de Dados | MySQL | 5.0 |
 |Comunicação | E-mail / Skype / Whatsapp |  |
 
+Tabela 04 - ferramentas para o desenvolvimento.
+
 
 ### 2.2.3 Estrutura do Ambiente
 ----------------------------------
@@ -109,6 +121,8 @@ As ferramentas tem como principio software livre, o ambiente e linux e a infra-e
 |Integração | É o ambiente que servirá para os testes de integração | Quando a comunicação entre os módulos atinge um estágio aceitável de funcionamento. |
 |Banco de Dados | É o ambiente onde os dados serão armazenados | Ambiente que conterá o banco de dados do sistema. |
 
+Tabela 05 - estrutura do ambiente.
+
 ### 2.2.4 Estrutura dos Equipamentos
 ----------------------------------
 
@@ -118,6 +132,8 @@ As ferramentas tem como principio software livre, o ambiente e linux e a infra-e
 |1 | Integração | Processador 3.0GHz, Memória de 16GB ou Superior, Disco Rígido de 2TB ou Superior e IP 192.168.0.10 | Centos 6.5 64 bits, Java 1.8 SDK, Git 1.9.4, Maven Plugin 2.8, MySQL Database Plugin 1.0 e Jenkins 1.588 |
 |1 | Banco de Dados | Processador 2.3 GHz ou Superior, Memória de 8GB ou Superior, Disco Rígido de 1TB ou Superior e IP 192.168.0.20 | Centos 6.5 64 bits e MySQL 5.0 |
 
+Tabela 06 - estrutura dos equipamentos.
+
 3. O Programa de Gerenciamento de Configuração
 ==============================================
 
@@ -125,27 +141,89 @@ As ferramentas tem como principio software livre, o ambiente e linux e a infra-e
 ---------------------------------
 ### 3.1.1 Métodos de Identificação
 ----------------------------------
-Todos os documento e artefatos devem ser nomeados com as iniciais do sistema SPT-SIS com numeroção de acordo com a versão, correção e produção.
+Todos os documentos, artefatos e itens de configuração, devem ser nomeados com as iniciais do sistema SPT-SIS, com base na nomenclatura descrita a seguir:
+
+&lt;SPT-SIS&gt;-&lt;ID_ARTEFATO&gt;-&lt;DATA&gt;-&lt;VERSÃO&gt;
+ 
+Onde: 
+ 
+| Nomenclatura | Descrição |
+|--------------|-----------|
+|SPT-SIS       | Inciais do sistema|
+|ID_ARTEFATO   | Identificação do item de configuração conforme tabela 08.|
+|VERSÃO        |Conforme tabela 09.|
+
+Tabela 07 - nomenclatura.
+
+|ID             | Item de Configuração   |
+|---------------|------------------------|
+|REQ            |Documento de Requisitos |
+|PT             |Plano de Testes         |
+|CF             |Código Fonte            |
+
+Tabela 08 - id e itens de configuração.
+
+| Versão       | Padrão   |
+|--------------|-----------|
+|Modificações Importantes |X          |
+|Correções Planejadas     |Y          |
+|Coreções de Bugs         |Z          |
+
+Tabela 09 - padrão de versionamento.
+
+Sempre que o dígito X for incrementado, os dígitos Y e Z deverão ser setados novamente para 0.
+
+Sempre que o Y for incrementado, o dígito Z deverá ser setado para 0.
+
+É importante salientar que todas as letras dos nomes que compõem os documentos, artefatos e itens de configuração devem estar em caixa alta, os espaços em branco e sem acentuação.
 
 ### 3.1.2 Itens de Configuração
 
-| Item (ou Tipo de Item)                 | Responsável na equipe	     | Inclusão em Baseline |
+| Item de Configuração                 | Responsável na equipe	     | Inclusão em Baseline |
 |----------------------------------------|-----------------------------|----------------------|
-|_&lt;grupo de itens de configuração&gt;_|_&lt;nome do responsável&gt;_|_&lt;momento a partir do qual o conjunto de artefatos será incluído em baseline&gt;_|
+|Documento de Requisitos|Carlos Bezerra|Quando o cliente validar e aprovar.|
+|Plano de Testes|Carlos Bezerra e Felipe Andrade|Após liberação por parte do gerente de testes.|
+|Código Fonte|Carlos Bezerra e Felipe Andrade|Após realização dos testes e aprovação por parte do cliente. |
+
+Tabela 10 - itens de configuração.
 
 
 ### 3.1.3 Baselines do Projeto
 
-As baselines são gerada assim que uma vesão de homologação do sistema SPT-SIS e assinada pelo negócio dessa forma é gerada uma versão para baseline do sistema contemplando requisitos, caso de testes e codigo fonte do sistema.
+As baselines são geradas assim que uma vesão de homologação do sistema SPT-SIS é aceita formalmente pelo cliente. Dessa forma, é gerada uma versão para baseline do sistema contemplando documento de requisitos, casos de testes e código fonte do sistema.
+
+| Baseline            | Responsável na equipe | Itens |
+|---------------------|-----------------------|-------|
+|Requisitos           |Carlos Bezerra         |Documento de Requisitos|
+|Desenvolvimento      |Carlos Bezerra         |Código Fonte|
+|Testes               |Carlos Bezerra         |Plano de Testes|
+
+Tabela 11 - baselines.
+
+As tags devem ser geradas a cada nova versão seguindo o padrão abaixo:
+
+&lt;SPT-SIS&gt;-&lt;RELEASE&gt;-&lt;VERSÃO&gt;
+
+Onde: 
+ 
+| Nomenclatura | Descrição |
+|--------------|-----------|
+|SPT-SIS       | Inciais do sistema|
+|RELEASE       | Palavra chave
+|VERSÃO        | Conforme tabela 09.|
+
+Tabela 12 - nomenclatura tags.
+
 
 ### 3.1.4 Estrutura do Repositório de Versões
 
-| Módulo                | Estrutura     | 
-|----------------------------------------|-----------------------------|----------------------|
-| Cadastro | SPT-SIS/dev-cadastro-1.0 |
-| Selecao | SPT-SIS/dev-selecao-1.0 |
-| Contabilidade | SPT-SIS/dev-contabilidade-1.0 |
-| Financeiro | SPT-SIS/dev-financeiro-1.0 |
+| Diretório                | Arquivos     | 
+|--------------------------|--------------|
+| /SPT-SIS/Documentação    | Documento de Requisitos e Plano de Testes |
+| /SPT-SIS/Fontes          | Código Fonte |
+
+Tabela 13 - estrutura de diretórios.
+
 
 
 
@@ -161,7 +239,7 @@ As solicitações de mudanças das Baselines serão realizadas através da ferra
 | Atividade                        			 | Descrição	     											   				| Responsabilidade      |
 |----------------------------------------|------------------------------------------------|-----------------------|
 |Aberto																	 | Criação da solicitação.												| Todos									|
-|Em Analise															 | Análise da solicitação													| Analista de sistemas	|
+|Em Análise															 | Análise da solicitação													| Analista de sistemas	|
 |Analisado															 | Aguardando desenvolvimento											| Analista de sistemas	|
 |Em desenvolvimento											 | Solicitação sendo desenvolvida									| Desenvolvedor					|
 |Desenvolvido														 | Aguardando teste																| Desenvolvedor					|
@@ -181,9 +259,9 @@ As requisições de mudança devem ocorrer da seguinte forma:
 
 2. A CCM com apoio da Equipe Técnica realiza a triagem definindo a relevância e possível impacto da mudança: Com Impacto Significativo, Sem Impacto Significativo e Mudança Irrelevante - Rejeitada.
 
-3. As mudanças que foram classificadas como Relevante deve gerar a Solicitação de Análise Detalhada de Impacto.
+3. As mudanças que foram classificadas como Relevante devem gerar a Solicitação de Análise Detalhada de Impacto.
 
-4. Realizar Análise de Impacto: Estudo e análise de quais itens de configuração a mudança impactará. Relatório contendo a lista de itens de configuração e o qual impacto sofrido pelo mesmo.
+4. Realizar Análise de Impacto: Estudo e análise de quais itens de configuração a mudança impactará. Relatório contendo a lista de itens de configuração e qual o impacto sofrido pelo mesmo.
 
 5. O CCM juntamente com o cliente negocia e aprova se a mudança pode ser implementada. O resultado deste processo pode gerar as seguintes decisões: Mudança Aprovada ou Mudança Reprovada.
 
@@ -195,7 +273,7 @@ As requisições de mudança devem ocorrer da seguinte forma:
 4. Padrões e Procedimentos
 ==========================
 
-O Processo de liberação de versão para homologação se inicia com a revisão técnica do líder de desenvolvimento e em seguida e liberada para o infra-estrutura.
+O Processo de liberação de versão para homologação se inicia com a revisão técnica do líder de desenvolvimento e em seguida com a liberação para a infra-estrutura.
 
 
 
