@@ -149,7 +149,7 @@ Onde:
  
 | Nomenclatura | Descrição |
 |--------------|-----------|
-|SPT-SIS       | Inciais do sistema|
+|SPT-SIS       | Iniciais do sistema|
 |ID_ARTEFATO   | Identificação do item de configuração conforme tabela 08.|
 |VERSÃO        |Conforme tabela 09.|
 
@@ -208,7 +208,7 @@ Onde:
  
 | Nomenclatura | Descrição |
 |--------------|-----------|
-|SPT-SIS       | Inciais do sistema|
+|SPT-SIS       | Iniciais do sistema|
 |RELEASE       | Palavra chave
 |VERSÃO        | Conforme tabela 09.|
 
